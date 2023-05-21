@@ -9,3 +9,26 @@ For example you want to save the **req.body** into your logs as **notice**.
 Or you want to log the **errors** in the try catch as **error**.
 
 Or you want to log the **failure database** as **critical**.
+
+### Usage
+
+To use this logger, you must import the library and create an instance (for example `loggerInstance` ).
+
+Then pass the directory to save and log the file.
+
+```javascript
+const logger = require('./logger')
+
+const loggerInstance = new logger({ path: "/path/to/log_directory" })
+```
+
+Then by using the instance, you can write sample logs with the `write` function.
+
+In the **write** function you can pass **two argument** like :
+
+  1. message : text ( might contain a message or warning message or failure to cause ) that you want to log to the file 
+  2. severity : a piece of information telling how important a given log message is . 
+
+```javascript
+loggerInstance.write('logger started !', 'notice')
+```
