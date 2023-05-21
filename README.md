@@ -37,7 +37,7 @@ loggerInstance.write('logger started !', 'notice')
 
 After you run the steps above, you can fine the directory in the path argument that you pass in the step create instance. (for example `./logs`)
 
-Then you can find several log files that are separated by ** month + day **.
+Then you can find several log files that are separated by **(month + day)**.
 
 
 It helps you that find events and logs per date (month and day). 
