@@ -1,5 +1,5 @@
 // import library 
-const Logger = require('./Logger')
+const Logger = require('./logger')
 
 // create instance from this and pass the directory to save the log files.
 const loggerInstance = new Logger({ path: "./logs" })
