@@ -1,5 +1,5 @@
 {
-  "name": "@moein_tavakoli_1999/minimal-js-logger",
+  "name": "minimal-js-logger",
   "version": "1.0.1",
   "description": "There is minimal and lightweight logger to log and save events or data or etc ",
   "main": "index.js",
