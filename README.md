@@ -10,6 +10,18 @@ Or you want to log the **errors** in the try catch as **error**.
 
 Or you want to log the **failure database** as **critical**.
 
+### Installation
+
+This is a Node.js module available through the npm registry.
+
+Before installing, download and install Node.js.
+
+Installation is done using the npm install command:
+
+`npm i minimal-js-logger`
+
+https://www.npmjs.com/package/minimal-js-logger
+
 ### Usage
 
 To use this logger, you must import the library and create an instance (for example `loggerInstance` ).
