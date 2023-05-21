@@ -26,8 +26,8 @@ Then by using the instance, you can write sample logs with the `write` function.
 
 In the **write** function you can pass **two argument** like :
 
-  1. message : text ( might contain a message or warning message or failure to cause ) that you want to log to the file 
-  2. severity : a piece of information telling how important a given log message is . 
+  1. `message` : text ( might contain a message or warning message or failure to cause ) that you want to log to the file 
+  2. `severity` : a piece of information telling how important a given log message is . 
 
 ```javascript
 loggerInstance.write('logger started !', 'notice')
