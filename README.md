@@ -29,7 +29,7 @@ To use this logger, you must import the library and create an instance (for exam
 Then pass the directory to save and log the file.
 
 ```javascript
-const logger = require('./logger')
+const logger = require('minimal-js-logger')
 
 const loggerInstance = new logger({ path: "/path/to/log_directory" })
 ```
