@@ -2,7 +2,7 @@ const fs = require('fs')
 const path = require('path')
 
 
-class logger {
+class Logger {
     constructor(option = { path: "./log" }) {
 
         this.path = option.path
@@ -25,4 +25,4 @@ class logger {
     }
 }
 
-module.exports = logger;
+module.exports = Logger;
