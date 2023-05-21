@@ -25,4 +25,4 @@ class logger {
     }
 }
 
-module.exports = new logger({ path: "./log" })
+module.exports = logger;
